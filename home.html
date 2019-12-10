@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      
+      <meta property="og:title" content="Cave of Programming - Java, C++ and Perl Tutorials - Learn to program" />
+      
+      
+       
+      <meta property="description" content="Java, C++ and Perl Tutorials - Learn to program or improve your skills. Free video tutorials, articles and courses to help you earn more money and pass exams." />
+      
+      
+      
+      <meta property="og:description" content="Java, C++ and Perl Tutorials - Learn to program" />
+      <meta property="og:image" content="http://localhost:4000/images/cavelogo250x66.png" />
+
+      <meta name="author" content="John Purcell - Cave of Programming">
+      <link rel="icon" href="/favicon.ico">
+      <title>Cave of Programming</title>
+    
+   
+    <script language="javascript" type="text/javascript" src="/js/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/bootstrap.min.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-21085672-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+ 
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+      
+       <!-- Bootstrap theme -->
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+    
+   
+    <link rel="stylesheet" href="/css/font-awesome.css">
+        
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <meta name="google-site-verification" content="hNdGbcvxseOt6MLTgQDsiI67R46CqqHhDmUiVUF8zi8" />
+  </head>
+
+  <!-- Facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
+  <!-- Stumbleupon -->
+  <script type="text/javascript">
+  (function() {
+    var li = document.createElement('script'); li.type = 'text/javascript'; li.async = true;
+    li.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//platform.stumbleupon.com/1/widgets.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(li, s);
+  })();
+  </script>
+   
+
+	
+
+
+<!-- Static navbar -->
+<section id="navbar-section" class="no-margin">
+    <nav id="navbar-nav" class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Cave of Programming</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                   <li><a class="courses" href="http://caveofprogramming.teachable.com/">Courses</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/library/index.html">Articles</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+
+                    <li><a href="/resources.html">Resources</a></li>
+                    <li><a href="https://sso.teachable.com/secure/1086/users/sign_in?reset_purchase_session=1">Login</a></li>
+
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+</section>
+
+
+
+    <section id="cover">
+
+    <div class="container">
+
+        <div class="row header">
+
+            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 text-center">
+
+                <div class="moto center-block">
+
+                    <h1>
+                         Learn to program. <br>
+                         Upgrade your skills. <br>
+                     </h1>
+
+                    <h3>Spring Framework / Java / Perl / C++ </h3>
+
+
+                    <a href="https://sso.teachable.com/secure/1086/users/sign_up?reset_purchase_session=1">
+                        <button class="btn btn-primary btn-lg call-to-action btn-custom">GET FIVE FREE PRESELECTED COURSES!</button>
+                    </a>
+
+
+                    <div><i class="fa fa-arrow-up fa-3x" aria-hidden="true"></i></div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div id="more"><a id="more-link" class="nolink" href="javascript: scrollToCourses();"><i class="fa fa-arrow-down fa-2x" aria-hidden="true"> Find out more ... </i></a></div>
+
+</section>
+
+<section id="sale">
+   <div class="container">
+     <div class="row">
+         <div class="col-md-12">
+         
+         <div class="large-paragraph">
+         I've finally got back to working on Cave of Programming. So far I've switched my Spring Boot
+        project to use Thymeleaf instead of Velocity, and got websockets working (with a view to implementing chat). New videos
+        hopefully coming soon!
+         </div>
+         <div class="large-paragraph">
+         Thank you everyone for your support and reviews and feedback! You're always welcome to email me on john@caveofprogramming.com and should get a reply from me in time, unless my email gets bounced or something! And you can also leave comments below. 
+         </div>
+         <div class="large-paragraph">
+            It's been a while since I've answered questions on courses themselves (rather than emails). I'm looking into running Cave of Programming as a company rather than 
+            as a sole trader, which would make it a lot easier to hire people to answer questions.
+            Cave of Programming isn't hiring yet, but may be soon .... watch this space!
+         </div>
+         <div class="large-paragraph">
+             -- John Purcell, 9th August, 2017
+         </div>
+        <!--
+          <h2>September 2016 Sale</h2>
+         <img alt="Spring Framework 3.2 Course" src="/images/spring-course.jpg">
+         
+        
+         <p>Get 30% off my Spring 3.2 course by clicking <a class="highlight-link"  href="http://caveofprogramming.teachable.com/courses/the-java-spring-tutorial?product_id=2186&coupon_code=30OFF">here</a>. </p>
+
+          <p>This course teaches you the popular Spring Framework, including how to create websites with Spring MVC. You'll need at least a basic understanding of Java, and ideally some knowledge of HTML and SQL.</p>
+          <p>Learn how to create websites with a user login facility and how to use Hibernate to work with databases.</p>
+          
+          <p>Includes a PDF on changes in Spring 4.2, in which cross-site request forgery protection is on by default, necessitating a few small tweaks.</p>
+          
+          -->
+         </div>
+       </div>
+    </div>
+
+</section>
+
+<section id="courses">
+    <div class="container">
+
+        <h1>A Selection of My Courses ...</h1>
+        <p class="courses-intro">Here's a selection of the video courses I offer. You can find a complete listing of all my courses <a
+        class="highlight-link"  href="http://caveofprogramming.teachable.com/courses">here</a>. </p>
+
+        <div class="row">
+
+            <div class="one-course col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img alt="Spring Framework 3.2 Course" src="/images/spring-course.jpg">
+                    <div class="caption">
+                        <h4><a href="http://caveofprogramming.teachable.com/courses/the-java-spring-tutorial">Learn Spring 3.2</a> <span class="gray-text">(includes Spring 4.2 PDF)</span></h4>
+                        <p>An introduction to Spring and building websites with Spring. Covers basic Spring apps and concepts, the Spring MVC web framework, using Hibernate and more.</p>
+                        <a href="http://caveofprogramming.teachable.com/courses/the-java-spring-tutorial" class="btn btn-info btn-xs" role="button">View details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-course col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="/images/boot-course.png">
+                    <div class="caption">
+                        <h4><a href="http://caveofprogramming.teachable.com/courses/spring-boot-tutorial">Spring Boot: Create a Social Network</a></h4>
+                        <p>Learn the Spring MVC web framework by creating a social network using Spring Boot. Discover how Spring Boot enables you to get websites up and running with Spring with a minimum of fuss.</p>
+                        <a href="http://caveofprogramming.teachable.com/courses/spring-boot-tutorial" class="btn btn-info btn-xs" role="button">View details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-course col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="/images/mysql-course.png">
+                    <div class="caption">
+                        <h4><a href="http://caveofprogramming.teachable.com/courses/mysql-and-sql-for-beginners">MySQL and SQL from Beginner to Advanced</a></h4>
+                        <p>Learn the world's most popular open source relational database, used by millions of website around the world. This courses teaches you SQL and database design from the ground up to advanced.</p>
+                        <a href="http://caveofprogramming.teachable.com/courses/mysql-and-sql-for-beginners" class="btn btn-info btn-xs" role="button">View details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-course col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="/images/servlets-course.png">
+                    <div class="caption">
+                        <h4><a href="http://caveofprogramming.teachable.com/courses/servlets-and-jsps-creating-web-applications-with-java">Java Web Basics with Servlets and JSPs</a></h4>
+                        <p>Find out how to use your Java skills to create dynamic websites using servlets (specialised Java classes) and how to combine HTML with dynamic code using JSPs. </p>
+                        <a href="http://caveofprogramming.teachable.com/courses/servlets-and-jsps-creating-web-applications-with-java" class="btn btn-info btn-xs" role="button">View details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--/row-->
+
+        <div class="row">
+
+            <div class="one-course col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="/images/swing-course.png">
+                    <div class="caption">
+                        <h4><a href="http://caveofprogramming.teachable.com/courses/java-swing-gui-programming-from-beginner-to-expert">Mastering Java Swing (Desktop)</a></h4>
+                        <p>Take your basic Java skills to the next level and learn how to write desktop apps using the most popular Java GUI library, Swing. Also covers basic database interaction.</p>
+                        <a href="http://caveofprogramming.teachable.com/courses/java-swing-gui-programming-from-beginner-to-expert" class="btn btn-info btn-xs" role="button">View details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-course col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="/images/advanced-c-course.png">
+                    <div class="caption">
+                        <h4><a href="http://caveofprogramming.teachable.com/courses/learn-c-tutorial">Advanced C++</a></h4>
+                        <p>If you've got basic C++ skills and want to improve your knowledge of C++, or if you learned C++ a while ago and want to learn about the features added in C++ 11, this course is for you.</p>
+                        <a href="http://caveofprogramming.teachable.com/courses/learn-c-tutorial" class="btn btn-info btn-xs" role="button">View details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-course col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="/images/perl-course.png">
+                    <div class="caption">
+                        <h4><a href="http://caveofprogramming.teachable.com/courses/learn-perl-5-by-doing-it">Learn Perl 5 By Doing It</a></h4>
+                        <p>A practical introduction to the Perl language. Learn how to use regular expressions and how to parse and download data, and how to import and export data to and from databases, and more.</p>
+                        <a href="http://caveofprogramming.teachable.com/courses/learn-perl-5-by-doing-it" class="btn btn-info btn-xs" role="button">View details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-course col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="/images/java-course.png">
+                    <div class="caption">
+                        <h4><a href="http://caveofprogramming.teachable.com/courses/java-for-complete-beginners">Java for Complete Beginners</a></h4>
+                        <p>My most popular free course, introducing you to computer programming using the Java language. Discover the Java language in easy steps.</p>
+                        <a href="http://caveofprogramming.teachable.com/courses/java-for-complete-beginners" class="btn btn-info btn-xs" role="button">View details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--/row-->
+
+    </div>
+    <!--/container -->
+</section>
+
+<section id="features">
+    <div class="section-features">
+        <div class="container">
+            <h2 class="heading js-wp-1">Quick Links</h2>
+            <p class="lead under-heading js-wp-1">Here's some useful stuff you might like ....</p>
+
+            <div class="row">
+                <div class="col-sm-3 square js-wp-2">
+                    <a href="http://caveofprogramming.teachable.com/"><i id="icon1" class="fa fa-video-camera fa-5x"></i></a>
+                    <hr class="green-hr">
+                    <p>Here are all the courses I've made so far, plus one from Dr. Richard Stibbard.</p>
+                </div>
+                <div class="col-sm-3 square js-wp-4">
+                    <a href="/categories/blog/index.html"><i id="icon2" class="fa fa-commenting-o fa-5x"></i></a>
+                    <hr class="green-hr">
+                    <p>What's new on Cave of Programming?</p>
+                </div>
+                <div class="col-sm-3 square js-wp-4">
+                    <a href="/latest.html"><i id="icon3" class="fa fa-edit fa-5x"></i></a>
+                    <hr class="green-hr">
+                    <p>Here are the latest articles on this site about how to do cool programming stuff.</p>
+                </div>
+                <div class="col-sm-3 square js-wp-3">
+                    <a href="/contact.html"><i id="icon4" class="fa fa-envelope-o fa-5x"></i></a>
+                    <hr class="green-hr">
+                    <p>Contact me.</p>
+                </div>
+                
+                
+   
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12 search">
+                     <h2>Search this site</h2>
+                 
+                        <script>
+                      (function() {
+                        var cx = '000210221004317570252:tv6ft7nksie';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                      })();
+                    </script>
+                    <gcse:search></gcse:search>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="about">
+
+    <div class="row">
+
+        <div class="about col-sm-12 col-md-6">
+            <div class="welcome" style="clear: both; overflow: hidden;">
+                <p><img id="me-photo" src="/images/methumb.jpeg" alt="John Purcell (Cave of Programming)" /> Welcome! My name's John and on this site you can find video tutorials and articles to help you learn the art of software development quickly and effectively.</p>
+                <p>Some of my courses are totally free; for the non-free ones, payments are <span class="highlight">handled securely and safely</span> using the services of <a href="https://teachable.com/">teachable.com</a>.</p>
+                <p>If you're interested in creating your own courses, I've written Kindle book with some tips, which you can find <a class="highlight-link" href="https://www.amazon.co.uk/Make-Great-Living-Teaching-Online-ebook/dp/B00H4UTHVM/ref=sr_1_1?ie=UTF8">here</a>.</p>
+                <p>Finally, <a
+                class="highlight-link"  href="https://www.caveofprogramming.com/about.html">here</a> is a brief summary of how I got into creating courses and how this site came about.</p>
+                <p>Happy coding!</p>
+            </div>
+        </div>
+
+        <div class="about col-sm-12 col-md-6">
+            <div class="welcome">
+
+                <a href="https://twitter.com/intent/follow?screen_name=CaveOfProgram"><img id="twitter" src="/images/twitter.png" alt="Follow me on Twitter"></a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                <p><span class="highlight">Short of money?</span> I totally understand if you really need a none-free course but really haven't got the cash to pay for it. </p>
+
+                <p>Register <a href="http://caveofprogramming.teachable.com/">here (free)</a> then send me an email at john@caveofprogramming.com with a brief explanation and I'll subscribe you for free.</p>
+                <p><span class="highlight">Thank you</span> to everyone who has bought my courses. You make it possible for me to create courses for a living!</p>
+                <p>If you've followed my free courses and feel moved to <span class="highlight">send me some cash</span>, please instead consider making a donation to <a class="highlight-link" href="https://www.sightsavers.org/">Sight Savers</a> -- a charity that is literally curing and preventing blindness throughout the world.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    $(document).ready(function() {
+        blink();
+    });
+
+    function blink() {
+        for (var i = 1; i < 5; i++) {
+            $('#icon' + i).delay(500 * i).fadeTo(2000, 0.5).delay(2000).fadeTo(2000, 1, blink);
+        }
+    }
+    
+    function scrollToCourses(){
+        var aTag = $("#sale");
+        $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+    }
+
+</script>
+
+    
+<section id="share">
+
+    <div class="container">
+
+        <div class="row header">
+
+            <div class="col-md-12">
+
+                <table>
+
+                    <tbody>
+                        <tr>
+                            <td><span class="share-page" href="#">Share this page: </span></td>
+                            <td>
+                                <!-- AddToAny BEGIN -->
+                                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+
+                                    <a class="a2a_dd" href="https://www.addtoany.com/share_save"></a>
+                                    <a class="a2a_button_facebook"></a>
+                                    <a class="a2a_button_twitter"></a>
+                                    <a class="a2a_button_google_plus"></a>
+                                    <a class="a2a_button_stumbleupon"></a>
+                                    <a class="a2a_button_linkedin"></a>
+                                </div>
+                                <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+                                <!-- AddToAny END -->
+
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<section id="comments">
+
+    <div class="container">
+
+        <div class="row header">
+
+            <div class="col-md-12">
+
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+  
+                    var disqus_shortname = 'caveofprogramming2'; 
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script');
+                        dsq.type = 'text/javascript';
+                        dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js?https';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="footer">
+
+    <div class="container">
+
+        <div class="row header">
+
+            <div class="footer-column col-md-12">
+               
+               <ul>
+                <li>All pages and content copyright &copy; 2014-2017 John Purcell, except where specifically credited to other authors.</li>
+            
+                 <li></lis><a class="footer-link" href="http://courses.caveofprogramming.com/pages/privacy">Privacy policy</a></li>
+                 
+                 </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+</html>
