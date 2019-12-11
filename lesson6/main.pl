@@ -13,6 +13,7 @@ sub main {
 
     while (my $line = <$INPUT>) {
         if ($line =~ m/\begg\b/) {
+            $line =~ s/\byou\b/YOU/ig;
             print $OUTPUT $line;
         }
     }
