@@ -17,13 +17,11 @@ sub main {
     <$INPUT>;
 
     my @lines;
-    my $count = 0;
     while (<$INPUT>) {
         chomp($_);
         my @values = split(/\s*,\s*/, $_);
         print(Dumper(@values));
-        $lines[$count] = $_;
-        $count++;
+        push(@lines, $_);
     }
 
     close($INPUT);
