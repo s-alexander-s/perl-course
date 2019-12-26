@@ -22,12 +22,12 @@ sub main {
 
     my @data;
     LINE: while (<$INPUT>) {
-        $_ =~ m/\S+/ or next;
+        $_ =~ m/\S+/ or print "Blank line, skipping it.\n" and next;
         chomp($_);
         my @values = split(/\s*,\s*/, $_);
-        @values == @header or next;
+        @values == @header or print "Not enough values in line, sipping it.\n" and next;
         for my $value (@values) {
-            not $value eq '' or next LINE;
+            not $value eq '' or print "Empty value, skipping line.\n" and next LINE;
         }
         my %values = ();
         for my $i (0..@header - 1) {
